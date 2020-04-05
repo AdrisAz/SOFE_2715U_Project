@@ -72,7 +72,7 @@ public class Alg {
                 Edistance = Math.sqrt(Math.pow(x-w,2)+Math.pow(y-z,2));
                 dist[i][l] = Edistance;
 
-                System.out.println("Centroid " + (i+1) + " is " + dist[i][l] + " from the data point");
+               System.out.println("Centroid " + (i+1) + " is " + dist[i][l] + " from the data point");
             }
             System.out.println("\n");
 
@@ -117,7 +117,7 @@ public class Alg {
                     y += sorted[i].get(0).get(1);
                     x += sorted[i].get(0).get(0);
                     sorted[i].remove(0);
-                    System.out.println(x + " " + y);
+                 //   System.out.println(x + " " + y);
                     temp++;
                 }
 
@@ -136,7 +136,7 @@ public class Alg {
     }
     public void nextCheck(){
         int four=0;
-       double one=0,two=0,three=70;
+        double one=0,two=0,three=70;
         while(three>0.5||three<-0.5) {
 
             EmptySorted();
@@ -191,9 +191,7 @@ public class Alg {
     }
 
 
-    public void Emptydist(){
 
-    }
 
 
     public void PrintSorted(){
